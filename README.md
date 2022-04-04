@@ -1,5 +1,5 @@
 # retoolCRM
-Custom CRM using retool, google sheets, oracle, and stripes API
+Custom CRM using retool, google sheets, oracle, and stripes API. View here: https://gregorymorris.retool.com/ 
 
 Overview
 Shipped
