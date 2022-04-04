@@ -1,4 +1,4 @@
-//Creat refund script to generate email Text
+//Creat Refund script to generate email Text
 
 let orderId = {{table1.selectedRow.data.orderid}}
 let refundAmount = {{numberInput1.value}}
@@ -16,4 +16,4 @@ let openingBlurb = ''
     break
   }
 
-return 'Order ' + orderId + ',\n\n' + openingBlurb + ' Thank you for shopping with us.'
+return 'Order ' + orderId + ',\n\n' + openingBlurb + '\n\n Thank you for shopping with us.'
