@@ -4,8 +4,8 @@ Customer Relation Managmenet (CRM) app using retool, google sheets, and stripes 
 These are the custom changes I created beyond the project:
 
 Add Sales Order section
-1. Charge ID changed from hardcode to input field with valid default chargeid
-2. Shipper field in Add Sales order changed to drop down as asscociated data has limited shipper selection
+1. Charge ID changed from hardcode to input field with valid default chargeid from Sales Order table
+2. Shipper field in Add Sales order changed to drop down to match the shipper data
 3. Frieght changed to currancy and updated associated query
 5. Form fields made manditory
 6. Employee ID field changed to selection and mapped to employee table, updated associated query
@@ -15,10 +15,10 @@ Add Sales Order section
 Refund section
 1. Form fields made manditory
 2. Email script updated to show customer name, reformated messge to show order and refund together
-3. Charge ID changed from hardcode to pull from table 1 chargeid
-4. Refund amount default pulls from table 1 freight
+3. Charge ID changed from hardcode to pull from Sales Order table chargeid
+4. Refund amount default pulls from sales order table freight
 5. frieght changed to currancy
-6. Associated queries updated for fom field changes
+6. Associated queries updated
 
 Stripe API
 1. Stripe API call updated script to convert floats to integer
