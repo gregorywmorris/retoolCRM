@@ -1,5 +1,5 @@
 # retoolCRM
-Customer Relation Managmenet (CRM) app using retool, google sheets, and stripes API. View here: https://gregorymorris.retool.com/. Guilded project from freecodecamp.org, led by Ania Kubow.
+Customer Relation Managmenet (CRM) app using retool, google sheets, and stripes API. View here: https://gregorymorris.retool.com/. Guided project from freecodecamp.org, led by Ania Kubow.
 
 These are the custom changes I created beyond the project:
 
